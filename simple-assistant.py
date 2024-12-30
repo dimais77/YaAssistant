@@ -1,8 +1,9 @@
+#!/usr/bin/env python3
 from __future__ import annotations
 from yandex_cloud_ml_sdk import YCloudML
 
-folder_id="b1gucl1kvlq01oqbh7p2"
-auth_key="AQVNyu-ITY-gSgMy54UO9VJWdKFfPRwv_yj5Lj20"
+folder_id="your_folder_id"
+auth_key="your_auth_key"
 
 def main():
     sdk = YCloudML(
